@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.text-primary {
+  color: #FD6E0A;
+  font-size: 45px;
+}
+
+.btn-primary {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 22px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+}
+
+.btn-primary2 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 22px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+
+.header {
+  background-color: FFF8F3;
+  background-image: url('./images/header_bg.png'), url('./images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+/* 
+header section design
+*/
+
+.nav-tittle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+
+.text-tittle {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.unorder-list {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+/* 
+banner css
+*/
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner1 {
+  
+}
+.banner-text1 {
+  font-weight: 100px;
+} 
+
+
+.banner-text2 {
+  font-weight: 700px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  
+}
+
+.banner-paragraph {
+  font-size: 15px;
+}
+
+/* 
+Main section
+*/
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  
+  
+}
+
+/* 
+about css
+*/
+
+.about-me {
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+  padding: 100px 130px;
+  
+}
+
+.section-tittle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-description {
+  margin-top: 30px;
+  text-align: center;
+  color: #0e0b0ac8;
+  font-size: 17px;
+  
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  font-size: 20px;
+  color: #110602;
+  margin-top: 30px;
+}
+
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+}
